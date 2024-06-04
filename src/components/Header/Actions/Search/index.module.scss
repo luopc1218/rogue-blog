@@ -10,40 +10,39 @@
 }
 
 .header__actions__search {
-
   &__input {
-    animation: fadeIn .3s ease forwards;
+    animation: fadeIn 0.3s ease forwards;
 
     & label.Mui-focused {
-      color: var(--secondary-color);
+      color: var(--primary-color);
     }
 
     & .MuiInput-underline:after {
-      border-color: var(--secondary-color);
+      border-color: var(--primary-color);
     }
 
     & .MuiOutlinedInput-root {
       &.Mui-focused fieldset {
-        border-color: var(--secondary-color);
+        border-color: var(--primary-color);
       }
 
       &:hover fieldset {
-        border-color: var(--secondary-color);
+        border-color: var(--primary-color);
       }
 
       & fieldset {
-        border-color: var(--secondary-color);
+        border-color: var(--primary-color);
       }
     }
   }
 
   &__icon {
     cursor: pointer;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
 
     &:hover {
       transform: scale(1.5);
-      color: var(--secondary-color);
+      color: var(--primary-color);
     }
   }
 }

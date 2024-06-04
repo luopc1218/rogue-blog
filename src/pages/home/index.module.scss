@@ -1,13 +1,20 @@
 .homePage {
   display: flex;
+  align-items: center;
+  justify-content: center;
 
-  .homePage__aside {
+  .homePage__content {
+    width: calc(1366px - 32px);
+    display: flex;
+    gap: 16px;
     padding: 16px;
-    width: 300px;
-  }
 
-  .homePage__main {
-    padding: 16px;
-    flex: 1;
+    .homePage__aside {
+      width: 300px;
+    }
+
+    .homePage__main {
+      flex: 1;
+    }
   }
 }

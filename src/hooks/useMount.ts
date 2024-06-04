@@ -19,6 +19,6 @@ export const useMount = (callback: () => void, unMountCallback?: () => void) => 
                 }
             }
         }
-    }, [callback, mounted]);
+    }, [callback, mounted, unMountCallback]);
 };
 export default useMount;
