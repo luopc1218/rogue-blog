@@ -1,0 +1,9 @@
+.header__actions__settings {
+  transition: all .3s ease;
+  cursor: pointer;
+
+  &:hover {
+    transform: rotate(-90deg);
+    color: var(--secondary-color);
+  }
+}

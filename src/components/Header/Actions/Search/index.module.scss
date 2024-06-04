@@ -1,0 +1,49 @@
+@keyframes fadeIn {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 300px;
+    opacity: 1;
+  }
+}
+
+.header__actions__search {
+
+  &__input {
+    animation: fadeIn .3s ease forwards;
+
+    & label.Mui-focused {
+      color: var(--secondary-color);
+    }
+
+    & .MuiInput-underline:after {
+      border-color: var(--secondary-color);
+    }
+
+    & .MuiOutlinedInput-root {
+      &.Mui-focused fieldset {
+        border-color: var(--secondary-color);
+      }
+
+      &:hover fieldset {
+        border-color: var(--secondary-color);
+      }
+
+      & fieldset {
+        border-color: var(--secondary-color);
+      }
+    }
+  }
+
+  &__icon {
+    cursor: pointer;
+    transition: all .3s ease;
+
+    &:hover {
+      transform: scale(1.5);
+      color: var(--secondary-color);
+    }
+  }
+}

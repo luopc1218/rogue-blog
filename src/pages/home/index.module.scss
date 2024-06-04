@@ -1,0 +1,13 @@
+.homePage {
+  display: flex;
+
+  .homePage__aside {
+    padding: 16px;
+    width: 300px;
+  }
+
+  .homePage__main {
+    padding: 16px;
+    flex: 1;
+  }
+}

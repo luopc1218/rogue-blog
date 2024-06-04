@@ -1,0 +1,16 @@
+.header__actions__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  &__link {
+    cursor: pointer;
+    transition: all .3s ease;
+
+    &:hover {
+      transform: scale(1.5);
+      color: var(--secondary-color);
+    }
+  }
+}
